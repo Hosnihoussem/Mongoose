@@ -1,10 +1,12 @@
 {
-  "name": "mera",
+  "name": "rest-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "devStart": "npx nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "back": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
